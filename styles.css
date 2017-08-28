@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#username {
+	display: inline;
+	float: right;
+}
+#password{
+	display: inline;
+	float: right;
+}
