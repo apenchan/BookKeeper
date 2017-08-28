@@ -2,11 +2,33 @@
 	margin: 0;
 	padding: 0;
 }*/
-#username {
+#password-text,
+#username-text {
 	display: inline;
-	float: right;
+	width: 15%;
+	float: left;
 }
-#password{
+.input {
 	display: inline;
-	float: right;
+	width: 85%;
+	float: left;
+}
+.col-sign-username{
+	float: left;
+	width: 12%;
+}
+.row:before {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+} 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
