@@ -10,7 +10,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-2">Username:</div>
-				<div class="col-4"><input type="text" placeholder="username"></div>
+				<div class="col-4"><input id="username" type="text" placeholder="username"></div>
 			</div>
 		</div>
 		<div class="container">
@@ -23,13 +23,13 @@
     <div class="container">
 			<div class="row">
 				<div class='col-2'>Password:</div>
-				<div class="col-4"><input type="password" placeholder="password"></div>
+				<div class="col-4"><input id="password1" value="" type="password" placeholder="password"></div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="row">
 				<div class='col-2'>Retype Password:</div>
-				<div class="col-4"><input type="password" placeholder="retype password"></div>
+				<div class="col-4"><input id="password2" value="" type="password" placeholder="retype password"></div>
 			</div>
 		</div>
 		<div class="container">
@@ -49,7 +49,9 @@
 	   		</div>
 	   	</div>
 	   </div>
-	   <button type="button">Sign Up</button>
+	   <button id="submitForm" type="button" onClick="submitForm();">Sign Up</button>
+	   <div id="msg"></div>
 	</form>
 </body>
+<script type="text/javascript" src="app.js"></script>
 </html>
